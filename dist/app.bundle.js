@@ -1,0 +1,1 @@
+(()=>{"use strict";window.Item=class{constructor(t,e,i,s,o,d,h){this.id=t,this.createdDate=e,this.title=i,this.notes=s,this.dueDate=o,this.priority=d,this.completed=h}toggleCompleted(){this.completed=!this.completed}updateTitle(t){this.title=t}updateNotes(t){this.notes=t}updateDueDate(t){this.dueDate=t}updatePriority(t){this.priority=t}}})();
